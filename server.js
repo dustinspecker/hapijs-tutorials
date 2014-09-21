@@ -1,6 +1,7 @@
 'use strict';
 
-var hapi = require('hapi')
+var good = require('good')
+  , hapi = require('hapi')
   , server = new hapi.Server(3000);
 
 server.route({
@@ -19,6 +20,12 @@ server.route({
   }
 });
 
-server.start(function () {
-  console.log('Server running at:', server.info.uri);
+server.pack.register(good, function (err) {
+  if (err) {
+    throw err;
+  }
+
+  server.start(function () {
+    console.log('Server running at:', server.info.uri);
+  });
 });

@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/dustinspecker/hapijs-tutorials",
   "dependencies": {
+    "good": "^2.3.0",
     "hapi": "^6.8.1"
   }
 }
