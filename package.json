@@ -1,0 +1,21 @@
+{
+  "name": "hapijs-tutorials",
+  "version": "0.0.0",
+  "description": "hapijs-tutorials\r ================",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustinspecker/hapijs-tutorials.git"
+  },
+  "author": "Dustin Specker",
+  "bugs": {
+    "url": "https://github.com/dustinspecker/hapijs-tutorials/issues"
+  },
+  "homepage": "https://github.com/dustinspecker/hapijs-tutorials",
+  "dependencies": {
+    "hapi": "^6.8.1"
+  }
+}
